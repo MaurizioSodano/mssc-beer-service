@@ -20,6 +20,8 @@ public class BeerDto {
     private OffsetDateTime createdDate;
     private OffsetDateTime lastModifiedDate;
 
+    private String beerName;
+
     private BeerStyleEnum beerStyle;
 
     private Long upc;
